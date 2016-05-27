@@ -11,7 +11,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -43,15 +43,15 @@
   	</script>
     <style type="text/css">
       h1 {
-        font-size: 20em;
+        font-size: 2em;
         font:;
       }
       h2 {
-        font-size: 2em;
+        font-size: 1.5em;
         font:900;
       }
       body{
-          font-size: 1.7em;
+          font-size: 1.1em;
           font-family: 'Merriweather', sans-serif;
           line-height: 2;
           font-weight: 400;
@@ -61,7 +61,41 @@
       }
     </style>
 </head>
+
 <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
 <h1>iPrint.Direct</h1>
 
 <h2>What is this?<h2>
@@ -157,39 +191,64 @@ Full implementation documentation is coming soon.
 
 <h2>FAQ's </h2>
 
-This sounds like Voodoo?
-: Like all great products iPrint Direct solves the printing problem in a very simple way. This can be integrated into any web application on any technology. Also the source code is open-source so you can inspect it if you wish.
+<dl>
+	<dt>This sounds like Voodoo?</dt>
+	<dd>Like all great products iPrint Direct solves the printing problem in a very simple way. This can be integrated into any web application on any technology. Also the source code is open-source so you can inspect it if you wish.</dd>
+</dl>
 
-Is it secure?
-: Yes. Within the installed application you create a secret key, and then share this key with only the applications that are allowed to use your printers. The printers are only exposed to web applications running on your computer.
+<dl>
+	<dt>Is it secure?</dt>
+	<dd>Yes. Within the installed application you create a secret key, and then share this key with only the applications that are allowed to use your printers. The printers are only exposed to web applications running on your computer.</dd>
+</dl>
 
-Are my documents / labels uploaded to the iPrint.Direct servers?
-: No. Your documents and labels are sent directly from your browser to the locally installed application then to your printer. We save diagnostic information, but not document contents or data. The document printing process is completed wholly on-premise.
+<dl>
+	<dt>Are my documents / labels uploaded to the iPrint.Direct servers?</dt>
+	<dd>No. Your documents and labels are sent directly from your browser to the locally installed application then to your printer. We save diagnostic information, but not document contents or data. The document printing process is completed wholly on-premise.</dd>
+</dl>
 
-Is it quick?
-: Yes. Very quick. Print speeds are usually only limited by the speed at which you can create your label, and the page speed of your printer. In testing we have achieved over 500 page per minute. 
+<dl>
+	<dt>Is it quick?</dt>
+	<dd>Yes. Very quick. Print speeds are usually only limited by the speed at which you can create your label, and the page speed of your printer. In testing we have achieved over 500 page per minute. </dd>
+</dl>
 
-Does my printer need to be connected to my computer?
-: Yes. We support all directly connected and networked printers. If you can see the printer in your Printer Settings screen, you can connect to it via iPrint.Direct.
+<dl>
+	<dt>Does my printer need to be connected to my computer?</dt>
+	<dd>Yes. We support all directly connected and networked printers. If you can see the printer in your Printer Settings screen, you can connect to it via iPrint.Direct.</dd>
+</dl>
 
-Do you support Networked Printers?
-: Yes. If you can see the printer in your Printer Settings screen, you can connect to it via iPrint.Direct.
+<dl>
+	<dt>Do you support Networked Printers?</dt>
+	<dd>Yes. If you can see the printer in your Printer Settings screen, you can connect to it via iPrint.Direct.</dd>
+</dl>
 
-Can I print using an iPrint.Direct service on another computer?
-: Yes. You will need to ensure that the browser (where you create your labels) can communicate with the iPrint.Direct service on the printing computer.
+<dl>
+	<dt>Can I print using an iPrint.Direct service on another computer?</dt>
+	<dd>Yes. You will need to ensure that the browser (where you create your labels) can communicate with the iPrint.Direct service on the printing computer.</dd>
+</dl>
 
-What documents formats do you support?
-: We support PDF and RAW printing. RAW is recommended for speed.
+<dl>
+	<dt>What documents formats do you support?</dt>
+	<dd>We support PDF and RAW printing. RAW is recommended for speed.</dd>
+</dl>
 
-Do you support label printing?
-: Yes. We support PDF and RAW ZPL and EPL label printing. We recommend ZPL as the fastest way to print shipping and return labels.
+<dl>
+	<dt>Do you support label printing?</dt>
+	<dd>Yes. We support PDF and RAW ZPL and EPL label printing. We recommend ZPL as the fastest way to print shipping and return labels.</dd>
+</dl>
 
-Do you support different document sizes?
-: Yes. You can print any document size through the iPrint.Direct service - this is only limited by your printer - you can't print an A1 poster on an A4 device ;-)
+<dl>
+	<dt>Do you support different document sizes?</dt>
+	<dd>Yes. You can print any document size through the iPrint.Direct service - this is only limited by your printer - you can't print an A1 poster on an A4 device ;-)</dd>
+</dl>
 
----
 
-<footer>Copyright 2015-2016</footer>
+
+
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted">PCopyright 2015-2016</p>
+  </div>
+</footer>
 
 
 </body>
